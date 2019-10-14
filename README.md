@@ -1,5 +1,8 @@
 # shadowsockets
-基于官方提供的仓库，只调整了目录结构和相关docker配置。
+基于官方提供的仓库v3.3.2，只调整了目录结构和相关docker配置。
+```https://github.com/shadowsocks/shadowsocks-libev/tree/v3.3.2```
+alpine目录对应官方位置
+```/shadowsocks-libev/docker/alpine/```
 
 # 安装
 需要在宿主机安装docker与docker-compose。
