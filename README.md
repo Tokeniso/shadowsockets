@@ -20,7 +20,7 @@ shadowsocks_1 |  2019-10-14 03:25:25 INFO: tcp server listening at 0.0.0.0:8388
 shadowsocks_1 |  2019-10-14 03:25:25 INFO: udp server listening at 0.0.0.0:8388
 ```
 代表安装成功，开放宿主机的8388端口，使用shadowsocket客户端就能连接了。
-安装成功后会停留在进程启动介面，```CTRL + C ``` 然后查看docker容器的ID，运行```docker start ID``` 就行了。
+安装成功后会停留在进程启动介面，```CTRL + C ``` 然后查看docker容器的ID，运行```docker start ID``` 就行了。也可以直接```docker-compose up -d```后台运行。
 
 # 注
 docker-composer.yml
